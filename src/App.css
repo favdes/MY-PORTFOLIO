@@ -1,0 +1,22 @@
+html, body{
+    overflow-x: hidden !important;
+    }
+    .down{
+        width: 14rem;
+        margin-left:   9rem;
+    }
+    .msmj{
+        width: 21rem;
+        margin-left: 5rem;
+    }
+@media(max-width:428px) {
+    .down{
+       width: 14rem;
+       margin-left: 4.7rem;
+    }
+    .msmj{
+        width: 18rem;
+        margin-left: 2.7rem;
+        color: red;
+    }
+}

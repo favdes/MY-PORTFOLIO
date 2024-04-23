@@ -1,0 +1,27 @@
+.nav{
+    margin-left: -4.5rem !important;
+}
+.lg{
+    display: flex;
+}
+@media(max-width:430px) {
+    .project {
+        display: none;
+    }
+    
+    .nav{
+        position: relative;
+        
+    }
+    .off{
+        position: relative;
+         left: rem;
+        top: 1rem;
+    }
+    .lg{
+        display: none;
+    }
+    
+    
+
+}

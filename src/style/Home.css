@@ -1,0 +1,219 @@
+.a1{
+    color: #F16529;
+    font-family: "Hammersmith One";
+    font-size: 24px;
+    line-height: normal;
+    margin-bottom: 3rem;
+    margin-top: -15rem;
+}
+.full{
+    color: #F16529;
+    font-family: "Hammersmith One";
+    font-size: 24px;
+    line-height: normal;
+
+}
+.p{
+color: #B5B5B5;
+font-family: "Lato";
+line-height: 30px;  
+}
+.contact{
+    margin-top: 3.2rem !important;
+}
+.b{
+ color: #FFF;
+font-family: "Hammersmith One";
+animation: name 2s alternate-reverse linear infinite;
+}
+.image{
+    width: 2500px;
+    animation: image 2s ;
+    margin-top: rem;
+}
+.EG{
+    margin-top: 1rem !important;
+    color: #B5B5B5;
+}
+.pic1{
+    position: relative;
+    bottom: 1.4rem;
+}
+
+.egg{
+    margin-left: 10rem !important;
+    position: relative;
+    top: -1.7rem;
+    
+}
+.pic3{
+    position: relative;
+    top: 1.5rem !important;
+}
+
+.img1{
+    animation: img1 2s alternate-reverse linear infinite;
+}
+.img2{
+    animation: img2 2s alternate-reverse linear infinite;
+}
+.img3{
+    animation: img3 2s alternate-reverse linear infinite;
+}
+.img4{
+    animation: img4 2s alternate-reverse linear infinite;
+}
+.img5{
+    animation: img5 2s alternate-reverse linear infinite;
+}
+
+@keyframes name {
+    0%{transform: translate(0px);}
+    100%{transform: translate(180px);}
+}
+
+@keyframes img1 {
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(100px);}
+}
+@keyframes img2 {
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(100px);}
+}
+@keyframes img3 {
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(100px);}
+}
+@keyframes img4 {
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(100px);}
+}
+@keyframes img5 {
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(100px);}
+}
+@keyframes image {
+    0%{transform: translateX(300px);}
+    100%{transform: translateX(0px);}
+}
+@media(max-width:430px) {
+    .a1 {
+        position: relative;
+        top: 1.3rem !important;
+    }
+    
+    .b{
+       font-size: 0.1rem;
+       width: 2rem; 
+       
+    }
+    .p{
+        font-family: "Lato";
+        
+    }
+    .tools{
+        position: relative;
+        top: 2rem;
+        left: 1rem;
+        
+    }
+    .image{
+        position: relative;
+        top: 3rem;
+    }
+    .pict{
+         display: none;
+    }
+    .contact{
+        position: relative;
+        left: 0.4rem;
+        top: -6.2rem;
+        
+    }
+    .hero{
+        display: flex;
+        flex-direction: column-reverse !important;
+        width: 100%;
+        position: relative;
+        font-size: 3rem;
+    }
+    .EG{
+        position: relative;
+        color: #B5B5B5;
+        margin-top: 8rem !important;
+        margin-right: -2rem;
+        margin-bottom: -7rem;
+    }
+    .pic1{
+        position: relative;
+       top: -0.3rem;
+       
+    }
+    .pic2{
+        position: relative;
+        top: 0.9rem;
+        margin-left: -5rem;
+        margin-right: 0.1rem;
+
+    
+    }
+    .pic3{
+        position: relative;
+        top: 8.8rem;
+        left: 1.3rem;
+        padding-left: 0.4rem;
+    }
+    .egg{
+        position: relative;
+       top: -1.8rem;
+    }
+    .hub{
+        position: relative;
+      top:  1.1rem;
+    }
+}
+@media (min-width: 730px){
+.off{
+    display: none;
+}
+}
+@media (min-width: 800px) and (max-width:884px){
+.pic3{
+    position: relative;
+      top: 0.7rem !important;
+}
+.p{
+    font-size: 1.9rem !important;
+    word-spacing: 0.2rem;
+    row-gap: 1rem !important;
+}
+.contact{
+    font-size: 2rem !important;
+}
+}
+@media (width: 768px){
+
+.pic3{
+  position: relative;
+    top: 0.7rem !important;
+}.pic2{  
+    position: relative;
+    top: -0.2rem;
+}
+.EMA{
+    position: relative;
+    top: -1.1rem;
+}.EM{
+    position: relative;
+    top: -0.9rem;
+}
+.p{
+    font-size: 1.9rem !important;
+    word-spacing: 0.2rem;
+    row-gap: 1rem !important;
+    
+}
+.contact{
+    font-size: 2rem !important;
+}
+}
