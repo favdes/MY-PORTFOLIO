@@ -77,14 +77,14 @@ const Projects = () => {
                   alt=""
                 />
                 <div>
-                  <div
-                    className="Em d-flex gap-2 mt-2  ms-lg-2"
+                <Link className="text-decoration-none" to="/Contacts">
+                  <div className="Em d-flex gap-2 mt-2  ms-lg-2"
                     style={{ color: "#B5B5B5" }}
                   >
                     <img className="Em h-25 mt-1" src={img2} alt="" />
                     <h5 className="Em">Email Me</h5>
                     <img className=" Em h-25 mt-1 " src={img3} alt="" />
-                  </div>
+                  </div></Link>
                 </div>
 
                 <div className=" me-lg-5 gh2">

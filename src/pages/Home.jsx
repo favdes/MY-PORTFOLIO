@@ -70,11 +70,11 @@ const Home = () => {
               alt=""
             />
 
-            <div className="EG d-flex align-items-center gap-lg-2">
+             <Link className="text-decoration-none" to="/Contacts"><div className="EG  d-flex align-items-center gap-lg-2 ">
               <img className="pic1 EMA" src={img8} alt="" />
-              <h3 className="EM mt-lg-2 pic1">Email Me</h3>
+              <h3 className="EM  mt-lg-2 pic1 ">Email Me</h3>
               <img className="pic1 mb-1 EMA" src={img9} alt="" />
-            </div>
+            </div></Link>
 
             <div className="gap-2  d-flex align-items-center gap-2 mb-lg-3 egg">
               <Link to="https://github.com/favdes" className="EG text-decoration-none d-flex gap-lg-2 ">
