@@ -111,6 +111,33 @@ textarea:focus {
   max-width: 1200px;
   margin: 0 auto;
 }
+@media(width: 320px){
+  .p{
+    width: 19rem !important;
+    position: relative;
+    left: -0.7rem;
+  }
+  .route{
+    position: relative;
+    left: -0.6rem;
+  }
+  .a{
+    position: relative;
+    left: 0.4rem !important;
+  }
+  .contacts{
+    position: relative;
+    left: 1.3rem !important;
+  }
+  .Gh{
+    position: relative;
+    left: -1rem !important;
+  }
+  .mass{
+    position: relative;
+    left: 2rem !important;
+  }
+}
 @media (max-width: 768px) {
   .a {
     font-size: 1rem;
@@ -136,9 +163,13 @@ textarea:focus {
     padding-left: 1.6rem !important;
   }
   .p {
-    width: 21rem;
-    font-size: 1rem;
+    width: 22rem;
+    font-size: 1.3rem;
+    position: relative;
+    left: -1rem;
+   
   }
+
   .info {
     width: 21.5rem;
     position: relative;
@@ -170,7 +201,6 @@ textarea:focus {
  }
  .main{
   position: relative;
-  left: -0rem;
   top: -4rem;
 }
 .gh1{

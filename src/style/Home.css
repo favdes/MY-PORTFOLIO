@@ -100,6 +100,7 @@ animation: name 2s alternate-reverse linear infinite;
     .a1 {
         position: relative;
         top: 1.3rem !important;
+        left: 1.1rem;
     }
     
     .b{
@@ -110,6 +111,10 @@ animation: name 2s alternate-reverse linear infinite;
     .p{
         font-family: "Lato";
         
+    }
+    .para1{
+        position: relative;
+        left: 0.4rem !important;
     }
     .tools{
         position: relative;
@@ -159,7 +164,7 @@ animation: name 2s alternate-reverse linear infinite;
     }
     .pic3{
         position: relative;
-        top: 8.8rem;
+        top: 8.8rem !important;
         left: 1.3rem;
         padding-left: 0.4rem;
     }
@@ -170,6 +175,16 @@ animation: name 2s alternate-reverse linear infinite;
     .hub{
         position: relative;
       top:  1.1rem;
+    }
+    .EMA{
+        position: relative;
+        top: -0.5rem;
+    }
+}
+@media(width: 320px){
+    .egg{
+        position: relative;
+        left: -1.2rem;
     }
 }
 @media (min-width: 730px){
@@ -217,3 +232,4 @@ animation: name 2s alternate-reverse linear infinite;
     font-size: 2rem !important;
 }
 }
+

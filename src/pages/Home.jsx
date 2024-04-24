@@ -28,7 +28,7 @@ const Home = () => {
                 Favour Echiejile
               </h5>
 
-              <div><p className="container mt-3 p" style={{ fontSize: "1.2rem", color: "#B5B5B5" }}>
+              <div><p className="container mt-3 p para1" style={{ fontSize: "1.2rem", color: "#B5B5B5" }}>
                 CAREER OBJECTIVES : To work with existing staff, facilities and
                 ensure business objectives are achieved. Secondly, to use my
                 skills to contribute immensely to the growth of any
@@ -70,7 +70,7 @@ const Home = () => {
               alt=""
             />
 
-            <div className="EG d-flex align-items-center gap-2">
+            <div className="EG d-flex align-items-center gap-lg-2">
               <img className="pic1 EMA" src={img8} alt="" />
               <h3 className="EM mt-lg-2 pic1">Email Me</h3>
               <img className="pic1 mb-1 EMA" src={img9} alt="" />
